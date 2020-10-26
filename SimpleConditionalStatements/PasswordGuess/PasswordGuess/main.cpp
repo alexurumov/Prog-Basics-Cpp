@@ -1,0 +1,21 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    string pass;
+    cin >> pass;
+    if (pass == "s3cr3t!P@ssw0rd")
+    {
+        cout << "Welcome" << endl;
+    }
+    else
+    {
+        cout << "Wrong password!" << endl;
+    }
+  
+    return 0;
+}
+
